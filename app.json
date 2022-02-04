@@ -1,0 +1,17 @@
+{
+  "name": "Square Mobile Backend Server",
+  "description": "An example mobile backend server for Square In-App Payments",
+  "env": {
+    "ACCESS_TOKEN": {
+      "description": "EAAAEFXrZjSDb8Ut66FrkLVehbFg8x8jSlgIEV37aBQcX_65ZNueuJ8jHQMxp-20",
+      "required": true
+    },
+    "ENVIRONMENT": {
+      "description": "SANDBOX",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm install"
+  }
+}
